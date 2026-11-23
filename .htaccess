@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(config\.php|schema\.sql|migrate\.php|promote-admin\.php)$">
+  Require all denied
+</FilesMatch>
